@@ -40,3 +40,13 @@ and run it
 It is a good idea to schedule its execution with cron, to do that, have a look at the cron manual page:
 
 man cron
+
+RESTORE BACKUPS
+---------------------
+
+If you need to restore a backup, simply uncompress the backup image archive with tar. Plug in your sd card
+and execute:
+
+ * dd if=/path/to/backup.img of=/dev/devicename
+
+then plug your sd card in your raspberry pi and turn it on
